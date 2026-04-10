@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     /* Language & Environment */
-    "target": "ES2021",
-    "lib": ["ES2021"],
-    "module": "CommonJS",
+    "target": "ES2022",
+    "lib": ["ES2022","DOM"],
+    "module": "esnext"
+    ,
     "moduleResolution": "node",
 
     /* Paths */
